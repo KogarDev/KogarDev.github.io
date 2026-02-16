@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kogar's website</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="fav.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Dilloco">
+<meta property="og:description" content="Projects with the modern functionality, and the 2009 look.">
+<meta property="og:image" content="https://dilloco.neocities.org/fav.png">
+<meta property="og:url" content="https://dilloco.neocities.org/">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://dilloco.neocities.org/">
+<meta name="author" content="Jackalope">
+<meta name="theme-color" content="#00adef">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Dilloco",
+  "url": "https://dilloco.neocities.org/",
+  "logo": "https://dilloco.neocities.org/fav.png"
+}
+</script>
+</head>
+<body>
+  <div class="page">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+</style>
+    <header class="header" id="headerd">
+      <h1 style="font-family: 'Reddit Sans';display: inline-block;" class="logo">kogar</h1><img src="ba.png" style="height: 40px; display: inline-block; transform: scale(2)">
+    </header>
+
+    <nav class="nav">
+      
+    </nav>
+    <style>
+      .card {
+  transition: all 0.751s ease;
+  cursor: pointer;
+}
+
+.card.active:nth-of-type(1) {
+  transform: scale(1.72) translateY(-20px) translateX(125px);
+}
+
+.card.active:nth-of-type(2) {
+  transform: scale(1.72) translateY(-20px) translateX(-125px);
+}
+
+    </style>
+    <main class="content">
+    <div class="card">
+        <h2>Hi!</h2>
+        <p>
+          Hi!
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      © Kogar
+    </footer>
+
+  </div>
+  <script src="navbar.js"></script>
+  <script>
+  const cards = document.querySelectorAll('.card');
+
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      card.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+</html>
