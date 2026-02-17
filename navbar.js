@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const links = [
-    { href: "https://dilloco.neocities.org/", text: "Home" },
-    { href: "https://dilloco.neocities.org/blog/", text: "Blog" }
+    { href: "https://kogardev.github.io/", text: "Home" },
+    { href: "https://kogardev.github.io/blog", text: "Blog" }
   ];
 
   links.forEach(linkData => {
