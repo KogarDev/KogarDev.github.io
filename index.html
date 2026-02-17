@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://dilloco.neocities.org/">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://dilloco.neocities.org/">
-<meta name="author" content="Jackalope">
+<meta name="author" content="Kogar">
 <meta name="theme-color" content="#00adef">
 <script type="application/ld+json">
 {
@@ -83,6 +83,23 @@
     });
   });
 </script>
+<script>
+  const sentences = [
+    "knows this website is horrible",
+    "is still alive",
+    "is tired of flat design",
+    "says roar",
+    "doesn't have a girlfriend"
+  ];
 
+  function setRandomSentence() {
+    const randomIndex = Math.floor(Math.random() * sentences.length);
+    const randomSentence = sentences[randomIndex];
+    document.getElementById("sentence").innerText = randomSentence;
+  }
+
+  // Run when the page loads
+  setRandomSentence();
+</script>
 </body>
 </html>
